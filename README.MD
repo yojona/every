@@ -8,7 +8,7 @@ function sayHello() {
     console.log('Hi')
 }
 
-call(sayHello).every(2000)
+call(sayHello).every(1000)
 
 ```
 ### Call function immediately and every second
@@ -19,7 +19,7 @@ function sayHello() {
     console.log('Hi')
 }
 
-call(sayHello).now().and().every(2000)
+call(sayHello).now().and().every(1000)
 
 ```
 
